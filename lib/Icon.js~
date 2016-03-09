@@ -111,19 +111,19 @@ export default class Icon extends Component {
     _renderPressed(){
         const { color, size, pressed } = this.state;
         let shape = {};
-
-        let left = ((1 - pressed.percent) * size) / 2;
-        let width = pressed.percent * size;
-        let borderRadius = pressed.percent * size / 2
-        shape = {
-            left,
-            top: left,
-            width,
-            height: width,
-            borderRadius
+        if(pressed != undefined){
+            let left = ((1 - pressed.percent) * size) / 2;
+            let width = pressed.percent * size;
+            let borderRadius = pressed.percent * size / 2
+            shape = {
+                left,
+                top: left,
+                width,
+                height: width,
+                borderRadius
+            }
         }
-
-        return (
+        return (size && pressed &&
             <Animated.View
                 style={[{
                     position: 'absolute',
@@ -179,7 +179,7 @@ export default class Icon extends Component {
         return (
             <View {...this._responder}>
                 <View>
-                    {pressed && size && this._renderPressed()}
+                    {this._renderPressed()}
                     <View style={{ backgroundColor: 'transparent' }} onLayout={this.onLayout}>
                         <VectorIcon
                             name={this.props.name}
@@ -188,7 +188,7 @@ export default class Icon extends Component {
                             style={[this.props.style, {margin: 16}]}
                         />
                     </View>
-                    {badge && size && this._renderBadge()}
+                    {this._renderBadge()}
                 </View>
             </View>
         );
@@ -252,4 +252,3 @@ const styles = {
         textAlign: 'center'
     }
 };
-
