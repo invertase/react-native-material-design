@@ -27,7 +27,7 @@
   "homepage": "https://github.com/react-native-material-design/react-native-material-design",
   "dependencies": {
     "react-native-material-design-styles": "https://github.com/react-native-material-design/react-native-material-design-styles.git",
-    "react-native-vector-icons": "^1.0.3"
+    "react-native-vector-icons": "^2.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.6",
