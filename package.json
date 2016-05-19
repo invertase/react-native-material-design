@@ -1,16 +1,62 @@
 {
-  "name": "react-native-material-design",
-  "version": "0.3.5",
+  "_args": [
+    [
+      "react-native-material-design@^0.3.5",
+      "C:\\Users\\Oussama\\Desktop\\react-native"
+    ]
+  ],
+  "_from": "react-native-material-design@>=0.3.5 <0.4.0",
+  "_id": "react-native-material-design@0.3.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-material-design",
+  "_nodeVersion": "6.0.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-material-design-0.3.5.tgz_1462548561438_0.5250670802779496"
+  },
+  "_npmUser": {
+    "email": "elliot.hesp@gmail.com",
+    "name": "ehesp"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-material-design",
+    "raw": "react-native-material-design@^0.3.5",
+    "rawSpec": "^0.3.5",
+    "scope": null,
+    "spec": ">=0.3.5 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-material-design/-/react-native-material-design-0.3.5.tgz",
+  "_shasum": "26c8d2486c757bf31cc5fc979d6b09d49ae47c1d",
+  "_shrinkwrap": null,
+  "_spec": "react-native-material-design@^0.3.5",
+  "_where": "C:\\Users\\Oussama\\Desktop\\react-native",
+  "bugs": {
+    "url": "https://github.com/react-native-material-design/react-native-material-design/issues"
+  },
+  "dependencies": {
+    "react-native-material-design-styles": "git+https://github.com/react-native-material-design/react-native-material-design-styles.git",
+    "react-native-vector-icons": "^1.0.3"
+  },
   "description": "React Native Material Design Components",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint ./lib"
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.5.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/react-native-material-design/react-native-material-design"
+  "directories": {},
+  "dist": {
+    "shasum": "26c8d2486c757bf31cc5fc979d6b09d49ae47c1d",
+    "tarball": "https://registry.npmjs.org/react-native-material-design/-/react-native-material-design-0.3.5.tgz"
   },
+  "gitHead": "7cb05469c4ca001fdbbe1d593ab1d96f3ab6e83c",
+  "homepage": "https://github.com/react-native-material-design/react-native-material-design",
   "keywords": [
     "react-native",
     "material",
@@ -21,17 +67,27 @@
     "android"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/react-native-material-design/react-native-material-design/issues"
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "email": "elliot.hesp@gmail.com",
+      "name": "ehesp"
+    },
+    {
+      "email": "mike.diarmid@gmail.com",
+      "name": "salakar"
+    }
+  ],
+  "name": "react-native-material-design",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-material-design/react-native-material-design.git"
   },
-  "homepage": "https://github.com/react-native-material-design/react-native-material-design",
-  "dependencies": {
-    "react-native-material-design-styles": "https://github.com/react-native-material-design/react-native-material-design-styles.git",
-    "react-native-vector-icons": "^2.0.1"
+  "scripts": {
+    "lint": "eslint ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "babel-eslint": "^4.1.6",
-    "eslint": "^1.6.0",
-    "eslint-plugin-react": "^3.5.1"
-  }
+  "version": "0.3.5"
 }
