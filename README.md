@@ -23,10 +23,6 @@ Or view it online [here](https://appetize.io/app/hyp1m20y515c16cj5yw2karcjg)! (C
 npm i react-native-material-design --save
 ```
 
-Copy the `MaterialIcons` font file from [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons#android) to your local working directory:
-
-`./node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf` -> `./android/app/src/main/assets/fonts`.
-
 Import any required components into your project, for example:
 
 ```
