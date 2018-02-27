@@ -1,3 +1,5 @@
+> This library is unmaintained. Please use at your own risk.
+
 # React Native Material Design
 
 [![npm](https://img.shields.io/npm/v/react-native-material-design.svg)](https://www.npmjs.com/package/react-native-material-design)
