@@ -18,7 +18,7 @@ many bug fixes, extra components, backward compatibility to Android SDK API 16 a
 ---
 
 ### Looking for maintainers 
-We're not working on any react-native projects internally so this has become low priority for now so we'd like to open this up to some more maintainers. If you're interested please get in touch via [gitter](https://gitter.im/react-native-material-design/react-native-material-design), or contact [myself](https://twitter.com/mike.diarmid) or [@ehesp](https://twitter.com/elliothesp) via twitter.
+We're not working on any react-native projects internally so this has become low priority for now so we'd like to open this up to some more maintainers. If you're interested please get in touch via [gitter](https://gitter.im/react-native-material-design/react-native-material-design), or contact [myself](https://twitter.com/mikediarmid) or [@ehesp](https://twitter.com/elliothesp) via twitter.
 
 ---
 
