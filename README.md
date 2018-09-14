@@ -1,4 +1,4 @@
-> This library is unmaintained. Please use at your own risk.
+> This library is no longer maintained. As an alternative we highly recommend checking out [React Native Paper](https://github.com/callstack/react-native-paper) by the awesome folks over at @callstack. ✨
 
 # React Native Material Design
 
