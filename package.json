@@ -1,12 +1,8 @@
 {
-  "name": "@doramong/react-native-material-design",
+  "name": "@doramong0926/react-native-material-design",
   "version": "1.0.0",
   "description": "Fork React Native Material Design Components for propTypes issue",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./lib"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doramong0926/react-native-material-design.git"
@@ -37,5 +33,8 @@
   "directories": {
     "lib": "lib"
   },
-  "author": "doramong0926@gmail.com"
+  "author": "doramong0926",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
