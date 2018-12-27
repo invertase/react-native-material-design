@@ -1,4 +1,4 @@
-> This library is no longer maintained. As an alternative we highly recommend checking out [React Native Paper](https://github.com/callstack/react-native-paper) by the awesome folks over at @callstack. ✨
+> This library is **no longer maintained**. As an alternative we highly recommend checking out [React Native Paper](https://github.com/callstack/react-native-paper) by the awesome folks over at @callstack. ✨
 
 # React Native Material Design
 
@@ -14,13 +14,6 @@ This repository has been heavily developed on top of the [mrn](https://github.co
 many bug fixes, extra components, backward compatibility to Android SDK API 16 and more.
 
 > Please keep in mind this is still a work in progress. The master branch is subject to breaking changes.
-
----
-
-### Looking for maintainers 
-We're not working on any react-native projects internally so this has become low priority for now so we'd like to open this up to some more maintainers. If you're interested please get in touch via [gitter](https://gitter.im/react-native-material-design/react-native-material-design), or contact [myself](https://twitter.com/mikediarmid) or [@ehesp](https://twitter.com/elliothesp) via twitter.
-
----
 
 Looking for a demo app? [Check out the repo](https://github.com/react-native-material-design/demo-app).
 
