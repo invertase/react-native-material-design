@@ -22,7 +22,7 @@ Or view it online [here](https://appetize.io/app/hyp1m20y515c16cj5yw2karcjg)! (C
 ## Installation
 
 ```
-npm i react-native-material-design --save
+npm i @doramong0926/react-native-material-design --save
 ```
 
 Follow the [Android installation instructions](https://github.com/oblador/react-native-vector-icons#android) on the [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) library, which consists of adding the following to your `./android/app/build.gradle`:
